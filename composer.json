@@ -13,7 +13,7 @@
         }
     ],
     "autoload": {
-        "psr-0": {"terminal\\": "src/"}
+        "psr-4": {"terminal\\": "src/"}
     },
     "require": {
         "php": "^7.4|^8.0"
