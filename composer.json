@@ -17,6 +17,11 @@
             "Tests\\": "tests/"
         }
     },
+    "autoload": {
+        "psr-4": {
+            "terminal\\": "src/"
+        }
+    },
     "require": {
        "php": "^7.4|^8.0"
     }
