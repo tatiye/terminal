@@ -1,0 +1,21 @@
+
+{
+    "name": "tatiye/terminal",
+    "description": "DevTools Ngorei",
+    "homepage": "https://github.com/tatiye/terminal.git",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "tatiye",
+            "email": "info@tatiye.net"
+        }
+    ],
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require": {
+       "php": "^7.4|^8.0"
+    }
+}
