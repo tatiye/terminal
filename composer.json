@@ -12,17 +12,14 @@
             "email": "info@tatiye.net"
         }
     ],
-    "autoload-dev": {
-        "psr-4": {
-            "Tests\\": "tests/"
-        }
-    },
     "autoload": {
-        "psr-4": {
-            "tatiye\\terminal\\": "src/"
-        }
+        "psr-0": {"terminal\\": "src/"}
     },
     "require": {
-       "php": "^7.4|^8.0"
+        "php": "^7.4|^8.0"
+    },
+    "require-dev": {
+        "tatiye/terminal": "dev-master"
     }
 }
+
