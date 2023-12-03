@@ -6,6 +6,8 @@
     "license": "MIT",
     "authors": [
         {
+            "package": "terminal",
+            "version": "0.0.1",
             "name": "tatiye",
             "email": "info@tatiye.net"
         }
