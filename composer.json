@@ -18,7 +18,6 @@
         }
     },
     "require": {
-        "php": "^7.4|^8.0",
-        "tatiye/terminal": "dev-main"
+       "php": "^7.4|^8.0"
     }
 }
