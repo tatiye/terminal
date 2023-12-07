@@ -1,0 +1,16 @@
+{
+   "assets":[ 
+         "lib/prism/prism.css"
+         "lib/jquery.json-viewer.js",
+         "lib/js-cookie/js.cookie.js",
+         "lib/prism/prism.js",
+         "lib/prism/clipboard.code.js",
+         "lib/prism/clipboard.min.js",
+         "lib/shortcuts.js",
+         "terminal/bundle.min.js",
+         "terminal/JConsole.js",
+         "terminal/Posleb.js"
+      ],
+}
+
+

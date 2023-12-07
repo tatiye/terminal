@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Consul</title>
+    <!-- App header -->{header.ASSETS}
+    <!-- END_App header -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/codemirror@5.57.0/lib/codemirror.css'>
+<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/codemirror@5.57.0/theme/material-palenight.css'>
+  <div class="container-fluid">
+  <div class="row">
+      <div class="col-md-12">
+    <textarea id="editorCode2" style="display: none;">import tatiyeNet,{index} from '&#123;tatiye&#125;';</textarea>
+  </div>
+    <div class="col-md-12">
+    <textarea id="editorCode" style="display: none;"></textarea>
+  </div>
+<div class="col-md-12 pl-10px pr-10px">
+  <span class="bold pl-10px pt-10px" style="color: #fff;font-size:18px;position:  absolute;">Results console.log()</span>
+ <div class="btn-group pull-right mr-5px pt-5px" role="group" aria-label="Basic example">
+  <button type="button" id="clearRequestBtn" class="btn btn-secondary">Clear</button>
+  <button type="button"id="sendRequest" class="btn btn-secondary">Run Code</button>
+</div>
+
+</div>
+<div class="col-md-12">
+  <hr>
+</div>
+
+    <div class="col-md-12">
+      <div  style="margin-left:1px;margin-right: 1px; padding-left: 10px; background-color:#292D3E; color:#fff" >
+          <div  id="setScrol" style="max-height:100px">
+            <div class="pt-5px" id="js-console"></div>
+          </div>
+       </div>
+    </div>
+  </div>
+  </div>
+
+<style type="text/css">
+  body{
+    background-color: #292D3E;
+  }
+  body hr{
+    border-top:1px solid #fff;
+  }
+.CodeMirror {
+  border: 1px solid #292D3E;
+  height:auto;
+}
+
+
+.container-fluid {
+    width: 100%;
+    padding-right: 1px;
+    padding-left: 1px;
+    margin-right: auto;
+    margin-left: auto;
+ 
+     overflow: hidden; /* Hide scrollbars */
+}
+  </style>
+ <!-- App footer -->{footer.ASSETS}
+  <!-- END_App footer --> 
+   <script src='http://ngorei/modules/vendor/tatiye/terminal/consul/script.jsx'defer type="module"></script>
+
+<script src='https://cdn.jsdelivr.net/npm/codemirror@5.57.0/lib/codemirror.min.js'></script>
+<script src='https://cdn.jsdelivr.net/npm/codemirror@5.57.0/mode/javascript/javascript.js'></script>
+<script src='https://cdn.jsdelivr.net/npm/split.js@1.6.2/dist/split.min.js'></script>
